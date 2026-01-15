@@ -161,10 +161,24 @@ Cuando hablamos de BDA estamos hablando del rol que tiene el usuario en la base 
 
 ##  Tipos de lenguajes de BBDD
 
-Tenemos 4 tipos de lenguaje en la base de datos que cada uno se utiliza para cosas distita:
+Tenemos 4 tipos de lenguaje en la base de datos que cada uno se utiliza para cosas distinta:
 
 - DDL: Este lenguaje lo utilizamos para crear estructura de datos 
 - DML: Este lenguaje lo utilizamos para manipular los datos como insertar, actualizar y hacer operaciones 
-- DCL: Con este leguaje nos permine tener control de los permiso
+- DCL: Con este lenguaje nos permite tener control de los permiso
 - TCL: Nos permite administrar las transacciones que se tiene en la base de datos y utiliza COMMIT para guardar y ROLLBLACK para deshacer lo realizado  
 
+## Diccionario de datos; Conceptos, contenido, tipos y uso
+
+Es el lugar donde se va a depositar la información referente a la base de dato, ademas el diccionario de dato ofrece información sobre la estructura lógica y física de la base de datos 
+
+Por otro lado tenemos dos tipo de diccionario de datos que son: 
+- off-line su función es mantener el diccionario
+- on-line que funciona como un compilador 
+
+
+# 1.5. ANSI/X3/SPARC. Estándares y niveles
+
+En su momento trato de crear un diseño abstracto para estandarizan los sistema de bases de datos y esta estructura se basa en tres tipos: 
+
+- nivel externo o de visión: en este nivel 
