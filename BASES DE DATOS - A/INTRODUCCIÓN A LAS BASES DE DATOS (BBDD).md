@@ -114,3 +114,57 @@ En esta primera parte vemos que las funciones de la base de datos tiene 3 tipos:
 - Construcciones: Es el proceso de almacenamiento de los datos 
 
 - Manipulación: Es la manipulación de los datos y las consultas de los datos almacenados 
+
+## Según su capacidad y ponencia
+
+En este aparatado podemos decir que hay dos: 
+
+- SGBD ofimáticos: que son los domésticos que son los que utiliza las pequñas empresa | Excel 
+- SGBD Corporativas: que son las que utiliza las grandes empresas | Oracle
+
+## Licencia de uso
+
+Aquí tenemos dos categorías: 
+
+- Licencia comercia: en esta licencia una empresa tienes los derechos de este software y el usuario no puede hacer modificaciones al código ya que no tiene acceso 
+
+- Licencia publica: En este licencia el usuario si tiene acceso en el código y puede hacer modificaciones en este ademas también lo puede comercializar 
+## Ejecutivo de SGBD
+
+Los SGBD son sistema que le brindan al usuario herramientas para poder manipular los datos y realizar tareas teniendo en cuenta su seguridad 
+
+Entre las herramientas que brinda los SGBD para tener seguridad e integridad tenemos los siguientes: 
+
+- Creación y especificación de los datos: que lo que hacemos crear estructura que se requiera en cada unida 
+
+- Manipulación de los datos en la base de datos: en este caso lo que vemos es cuando agregamos, borramos o consultamos los datos 
+
+- Recuperación de los datos:  Cuando hacemos copia de seguridad
+
+## Tipos de usuarios en la base de datos 
+
+Aquí tenemos dos categorías que son: 
+
+- Informáticos: Son los que pueden diseñar la base de datos, ademas pueden añadir y hacer consultas a dicha base de datos
+- No informáticos: Esto son los que no puede entrar a la base de datos y la única manera que tiene de participar con la base de datos es por medio de un formulario
+
+## Administración de la Base de Datos (BDA) funciones y responsabilidades 
+
+Cuando hablamos de BDA estamos hablando del rol que tiene el usuario en la base de datos y en este caso este rol hace lo siguiente: 
+
+- Puede definir estatura
+- Puede definir espacio en memoria 
+- Puede modificar los dos anteriores 
+- Puede definir permiso a otros usuarios 
+- Hacer restricciones
+
+
+##  Tipos de lenguajes de BBDD
+
+Tenemos 4 tipos de lenguaje en la base de datos que cada uno se utiliza para cosas distita:
+
+- DDL: Este lenguaje lo utilizamos para crear estructura de datos 
+- DML: Este lenguaje lo utilizamos para manipular los datos como insertar, actualizar y hacer operaciones 
+- DCL: Con este leguaje nos permine tener control de los permiso
+- TCL: Nos permite administrar las transacciones que se tiene en la base de datos y utiliza COMMIT para guardar y ROLLBLACK para deshacer lo realizado  
+
