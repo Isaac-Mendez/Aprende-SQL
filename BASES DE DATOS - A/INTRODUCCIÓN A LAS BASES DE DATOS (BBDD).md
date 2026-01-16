@@ -218,3 +218,6 @@ Los SGBD tiene que garantizar la seguridad de los datos ya que de lo contrario l
 
 ## Modelo distribuido: ventajas e inconvenientes, técnicas de fragmentación, distribución de datos y esquemas de asignación y replicación de datos
 
+
+listo
+
