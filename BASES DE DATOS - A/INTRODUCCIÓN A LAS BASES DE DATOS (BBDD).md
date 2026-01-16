@@ -181,4 +181,40 @@ Por otro lado tenemos dos tipo de diccionario de datos que son:
 
 En su momento trato de crear un diseño abstracto para estandarizan los sistema de bases de datos y esta estructura se basa en tres tipos: 
 
-- nivel externo o de visión: en este nivel 
+- nivel externo o de visión: en este nivel: este es un nivel para el usuario ademas este nivel tiene el usuario solo puede ver lo que se le permite
+
+- nivel conceptual: en este nivel de define la estructura que se va utilizar en la base de datos y también la  interrelaciones existen entre los mismos datos
+
+- nivel interno o físico: En este nivel se organiza el almacenamiento de base de datos 
+
+
+## 1.6. Modelos de BBDD. Tipos: jerárquico, red, relacional y orientado a objetos
+
+Este punto ya lo tocamos antes en tipos de datos pero en este punto lo vamos profundizar un poco mas . 
+
+Los modelos de bases de datos organizan el almacenamiento de los datos pero también tiene la lógica de los mismo  los mas destacado son los siguientes: 
+
+Jerárquico: Este tiene forma de árbol invertido pero también utiliza  la herencia 
+![[Pasted image 20260116071743.png]]
+
+- En Red: Este modelo son nodos que se enlaza entre si pero aquí no hay herencia 
+![[Pasted image 20260116071939.png]]
+
+- Modelo Relacional: Este modelo es que organiza la información en entidades y duplas o filas para evitar la redundancia 
+
+- Modelo entidad-relación (ER): Este es el que todo conocemos y que hemos estado explicando 
+
+- Modelo entidad-relación extendido: Es el mismo pero con menos limitaciones 
+
+- Modelo orientado a objetos: Este tipo de modelo ya utilizamos tanto la herencia como los objectos 
+
+## Regla de integridad de los datos 
+
+Los SGBD tiene que garantizar la seguridad de los datos ya que de lo contrario la base de dato sufrirá perdida de datos, por ello hay dos reglas de integridad que hay que seguir  
+
+- Regla de integridad del modelo: Es que te asegures que el sistema de base de datos que elegiste funcione bien y non tenga problema de seguridad ni de integridad 
+
+- Regla de integridad del usuario: En este paso es el usuario que debe asegurarse en trabajar bien con SGBD para no tener problema de perdida de dato y en caso de tenerlo tener como recuperar dichos datos 
+
+## Modelo distribuido: ventajas e inconvenientes, técnicas de fragmentación, distribución de datos y esquemas de asignación y replicación de datos
+
