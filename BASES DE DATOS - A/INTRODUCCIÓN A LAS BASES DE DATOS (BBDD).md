@@ -1,269 +1,260 @@
-
-La definición de base de datos básicamente es una serie  de datos que están agrupados y acomodados para su fácil consulta
+La definición de base de datos básicamente es una serie de datos que están agrupados y organizados para su fácil consulta.
 
 # 1.1. Evolución histórica de las BBDD
 
-La base de datos no es una novedad de la sociedad moderna ya que desde los sumerios ya utilizaban gestión de bases de datos donde en tablas colocaban la recogidas de trigo y traslaciones con animales 
+La base de datos no es una novedad de la sociedad moderna; desde los sumerios ya se empleaba gestión de datos, colocando en tablas la recogida de trigo y el registro de transportes con animales.
 
 ## 1900 - 1950
 
-También en las peores época como pudo ser la segunda guerra mundial los datos jugaron un papel importante ya que para esas épocas se creo la maquina de turing que es la primera maquina lógica utilizando un sistema de tubos de vacío 
+Incluso en épocas tan duras como la Segunda Guerra Mundial los datos jugaron un papel importante; en ese periodo se desarrolló la máquina de Turing como concepto de máquina lógica y se usaron sistemas con tubos de vacío.
 
-## Años 60 
+## Años 60
 
-En estos años se creo el sistema de (batchprocessing) y esto era un cambio de paradigma ya que con la creación de este sistema ya no había que estar pudiente de la maquina 
+En estos años se creó el sistema de batch processing, lo que supuso un cambio de paradigma: ya no era necesario depender constantemente de la máquina para procesar tareas.
 
-## Años 70 
+## Años 70
 
-En este año el señor Edgar Frank publica el modelo relacional y de allí se crea la BBDD Oracle y aparece el entidad-relación que facilita el diseño de BBDD
+En esta década Edgar F. Codd publicó el modelo relacional; a partir de ello surgieron sistemas como Oracle y el modelo entidad-relación, que facilita el diseño de bases de datos.
 
-## Años 80 
+## Años 80
 
-Pues aquí se decide estandarizarlo y se creo un lagunaje universal que en este caso es SQL 
+En los años 80 se trabajó en la estandarización y se consolidó un lenguaje universal: SQL.
 
-## Años 90 
+## Años 90
 
-A principio de los 90 ya las BBDD ya están popularizadas por todas las empresas entonces empezaron a crear los sistema de gestión de bases de datos (SGBD) 
+A principios de los 90 las bases de datos ya estaban popularizadas en las empresas, lo que impulsó el desarrollo de sistemas gestores de bases de datos (SGBD).
 
-Aquí Microsoft creo Microsotf Acces
+Aquí Microsoft creó Microsoft Access.
 
 ## Años 2000 y adelante
 
-Debido a las limitaciones que daba las bases de datos se creo el TAD que es: Tipo Abstracto de datos que básica mente es programación orientada a objeto 
+Debido a limitaciones de los modelos tradicionales, surgieron conceptos como el TAD (Tipo Abstracto de Datos), relacionado con la programación orientada a objetos.
 
 # 1.2. Ventajas e inconvenientes de las BBDD
 
-## Ventajas 
+## Ventajas
 
-- La información que se guarda en la base de datos se guarda de forma independiente y de esta manera se reduce la refundación de la información
-- Mediante la información que se guarda se puede sacar la mayor información partiendo de una pequeña cantidad de datos 
-- Se asegura la integridad de los datos y resultados coherente 
-- Posible de una gran seguridad 
-## Desventajas 
+- La información almacenada en la base de datos se guarda de forma independiente, reduciendo la redundancia de los datos.
+- A partir de una pequeña cantidad de datos se puede extraer mucha información útil.
+- Se asegura la integridad de los datos y resultados coherentes.
+- Posibilidad de una alta seguridad.
 
-- El mantenimiento lo tiene que hacer alguien que sepa 
-- La inversión inicial es mayor que otras como el papel 
-- Se necesita bastante memoria en la computadora 
+## Desventajas
 
-# 1.3. Almacenamiento d e la información
+- El mantenimiento debe hacerlo personal cualificado.
+- La inversión inicial es mayor que en otras soluciones, como el papel.
+- Se requiere bastante memoria en el equipo.
 
-En el almacenamiento de una base de datos utilizamos ficheros que también podemos decirle archivos, esto lo guarda de una manera binaria siguiendo una estructura logia determinada 
+# 1.3. Almacenamiento de la información
 
-## Tipos de ficheros 
+En el almacenamiento de una base de datos utilizamos ficheros —también llamados archivos—; éstos se guardan de manera binaria siguiendo una estructura lógica determinada.
 
-Estos se puede identificar según  el acceso que tenga.
+## Tipos de ficheros
 
-- Fichero de texto plano: Este se caracteriza por tener un registro continuo ósea que para acceder a el se tiene que recorrer todo el registro para de principio a fin 
+Estos se pueden identificar según el tipo de acceso que permitan.
 
-
-- Fichero indexado: Este se divide en dos forma: índice y registro; con esto si se tiene el índice se lleva al registro directamente 
-
-- Fichero de acceso directo:  En este se prescinde del registro por lo que se va directo a la dirección física del registro 
-
-- Otros:  Aquí conseguimos otros como los ficheros hash que un algoritmo de encriptación
+- Fichero de texto plano: se caracteriza por tener un registro continuo; para acceder a él suele ser necesario recorrer todo el contenido de principio a fin.
+- Fichero indexado: se divide en dos partes: índice y registro; con el índice se accede directamente al registro correspondiente.
+- Fichero de acceso directo: se prescinde del recorrido secuencial y se accede directamente a la dirección física del registro.
+- Otros: aquí se incluyen, por ejemplo, ficheros hash que usan algoritmos de mapeo.
 
 ## Operaciones básicas de un fichero
 
-
-- Abrir (Open): prepara el fichero para su posterior operación Lectura y escritura  
-- Cerrar(Close): Cierra el fichero 
-- Leer(read): Lee el fichero
-- Escritura(write): Escribe en el fichero
-- Posicionarse(seek): posiciona el puntero para su operación ósea la escritura o lectura 
-- Fin de fichero(eof): Marca el fin de fichero
+- Abrir (open): prepara el fichero para operaciones de lectura y escritura.
+- Cerrar (close): cierra el fichero.
+- Leer (read): lee el contenido del fichero.
+- Escribir (write): escribe en el fichero.
+- Posicionarse (seek): posiciona el puntero para la operación de lectura o escritura.
+- Fin de fichero (eof): marca el fin del fichero.
 
 ## Conceptos clave de las BBDD
 
-Conceptos que se utiliza en la base de datos: 
+Conceptos que se utilizan en la base de datos:
 
-- Datos: Expresa una información concreta de algo especifico. Ejemplo la edad es un dato
-- Tipo de datos: Es el tipo de dato que esta escrito un ejemplo es que edad es un tipo de dato numerico
-- Campo:  El campo un identificador o un atributo ejemplo; nombre, apellido, edad. 
-- Tabla: La tabla esta creada por varios campos y registro ejemplo; se crea la tabla persona con los atributos; nombre, apellidos, edad y cada registros es una persona
-- Registro: también se le dice dupla y es la agrupación de los datos de una fila ejemplo: Isaac, Mendez, 31
-- Campo clave: Es el datos que se toma para identificar el registro de manera única
-- Consulta: También se le llama query y se utiliza para consultar datos, agregar datos actualización de datos, eliminación de datos y otros 
-- índice: Es una estructura que agrupa los campo claves para poderlo ubicar mas fácil
-- Vista: Es una estructura que engloba todos los campos de una tabla o de otras 
-- informe: es un listado que agrupa campos y registro en un formato que facilita su lectura 
-- Script: son funciones que se puede hacer dentro de la base de batos 
-- Procedimiento: Es parecido al la función pero no devuelve nada  
+- Datos: Expresan información concreta sobre algo específico. Ejemplo: la edad es un dato.
+- Tipo de datos: Indica la clase de dato; por ejemplo, la edad es un tipo de dato numérico.
+- Campo: Identificador o atributo; ejemplo: nombre, apellido, edad.
+- Tabla: Conjunto formado por varios campos y registros; ejemplo: la tabla "persona" con los atributos nombre, apellidos, edad, donde cada registro es una persona.
+- Registro: También llamado tupla; es la agrupación de los datos de una fila. Ejemplo: Isaac, Méndez, 31.
+- Campo clave: Es el dato que se usa para identificar un registro de manera única.
+- Consulta: También llamada query; sirve para consultar, agregar, actualizar o eliminar datos, entre otras operaciones.
+- Índice: Estructura que agrupa o referencia campos clave para facilitar su localización.
+- Vista: Estructura que engloba campos de una o varias tablas.
+- Informe: Listado que organiza campos y registros en un formato que facilita su lectura.
+- Script: Conjunto de comandos o funciones que se pueden ejecutar dentro de la base de datos.
+- Procedimiento: Similar a una función, pero no necesariamente devuelve un valor.
 
 ## Tipos de BBDD
 
-En este punto organizaremos las bases de datos según como están organizadas por dentro:
+En este punto organizaremos las bases de datos según cómo están estructuradas internamente:
 
-- Jerárquicas: Esta se organizan como fuera un árbol de pero al inversa donde el primero es el que tiene mas poderes y todas las ramificaciones depende de esta principal 
-
-- En Red: Esta esta organizada por red unidas por nudos donde cada nudos esta relacionados con el de la par 
-
-- Relaciones: Esta esta formada por tablas que están relacionadas entre si 
-
-- Orientada a objeto: Esta esta organizadas por objetos que pertenecen a una clase  
+- Jerárquicas: Se organizan como un árbol donde el nodo principal tiene mayor jerarquía y las ramificaciones dependen de él.
+- En red: Se organizan en una red de nodos conectados entre sí, donde cada nodo puede relacionarse con varios pares.
+- Relacionales: Formadas por tablas que están relacionadas entre sí.
+- Orientadas a objetos: Organizadas por objetos que pertenecen a una clase.
 
 # 1.4. Sistemas gestores de bases de datos (SGBD)
 
-Los sistema de base de datos están creados para facilitar al usuarios la administración de dichos datos 
+Los sistemas de bases de datos están diseñados para facilitar al usuario la administración de los datos.
 
-## Funciones componente y tipos
+## Funciones, componentes y tipos
 
-En esta primera parte vemos que las funciones de la base de datos tiene 3 tipos: 
+En esta primera parte vemos que las funciones de la base de datos tienen 3 tipos:
 
-- Definición: Aquí especificamos los tipos de datos, la estructuración de base de datos y ponemos restricciones
-
-- Construcciones: Es el proceso de almacenamiento de los datos 
-
-- Manipulación: Es la manipulación de los datos y las consultas de los datos almacenados 
+- Definición: Aquí especificamos los tipos de datos, la estructura de la base de datos y establecemos restricciones.
+- Construcción: Es el proceso de almacenamiento de los datos.
+- Manipulación: Es la gestión de los datos y la realización de consultas sobre los datos almacenados.
 
 ## Según su capacidad y ponencia
 
-En este aparatado podemos decir que hay dos: 
+En este apartado podemos decir que hay dos:
 
-- SGBD ofimáticos: que son los domésticos que son los que utiliza las pequñas empresa | Excel 
-- SGBD Corporativas: que son las que utiliza las grandes empresas | Oracle
+- SGBD ofimáticos: Son los domésticos, utilizados por pequeñas empresas (por ejemplo, Excel).
+- SGBD corporativos: Son los utilizados por grandes empresas (por ejemplo, Oracle).
 
 ## Licencia de uso
 
-Aquí tenemos dos categorías: 
+Aquí tenemos dos categorías:
 
-- Licencia comercia: en esta licencia una empresa tienes los derechos de este software y el usuario no puede hacer modificaciones al código ya que no tiene acceso 
+- Licencia comercial: En esta licencia una empresa posee los derechos del software y el usuario no puede modificar el código ni acceder a él.
+- Licencia pública: En esta licencia el usuario tiene acceso al código, puede modificarlo y también comercializarlo.
 
-- Licencia publica: En este licencia el usuario si tiene acceso en el código y puede hacer modificaciones en este ademas también lo puede comercializar 
 ## Ejecutivo de SGBD
 
-Los SGBD son sistema que le brindan al usuario herramientas para poder manipular los datos y realizar tareas teniendo en cuenta su seguridad 
+Los SGBD son sistemas que brindan al usuario herramientas para manipular los datos y realizar tareas, teniendo en cuenta su seguridad.
 
-Entre las herramientas que brinda los SGBD para tener seguridad e integridad tenemos los siguientes: 
+Entre las herramientas que ofrecen los SGBD para garantizar seguridad e integridad tenemos las siguientes:
 
-- Creación y especificación de los datos: que lo que hacemos crear estructura que se requiera en cada unida 
+- Creación y especificación de los datos: creación de la estructura requerida en cada unidad.
+- Manipulación de los datos en la base de datos: operaciones de inserción, eliminación y consulta de datos.
+- Recuperación de los datos: realización de copias de seguridad.
 
-- Manipulación de los datos en la base de datos: en este caso lo que vemos es cuando agregamos, borramos o consultamos los datos 
+## Tipos de usuarios en la base de datos
 
-- Recuperación de los datos:  Cuando hacemos copia de seguridad
+Aquí tenemos dos categorías:
 
-## Tipos de usuarios en la base de datos 
+- Informáticos: pueden diseñar la base de datos, además de añadir y consultar datos.
+- No informáticos: no acceden directamente a la base de datos; su interacción es mediante formularios.
 
-Aquí tenemos dos categorías que son: 
+## Administración de la Base de Datos (BDA) — funciones y responsabilidades
 
-- Informáticos: Son los que pueden diseñar la base de datos, ademas pueden añadir y hacer consultas a dicha base de datos
-- No informáticos: Esto son los que no puede entrar a la base de datos y la única manera que tiene de participar con la base de datos es por medio de un formulario
+La BDA se refiere al rol del administrador de la base de datos, que realiza funciones como:
 
-## Administración de la Base de Datos (BDA) funciones y responsabilidades 
+- Definir estatura (tamaño) 
+- Definir espacio en memoria.
+- Modificar los parámetros anteriores.
+- Asignar permisos a otros usuarios.
+- Establecer restricciones.
 
-Cuando hablamos de BDA estamos hablando del rol que tiene el usuario en la base de datos y en este caso este rol hace lo siguiente: 
+## Tipos de lenguajes de BBDD
 
-- Puede definir estatura
-- Puede definir espacio en memoria 
-- Puede modificar los dos anteriores 
-- Puede definir permiso a otros usuarios 
-- Hacer restricciones
+Tenemos 4 tipos de lenguajes en la base de datos, cada uno para tareas distintas:
 
+- DDL: se utiliza para crear la estructura de datos.
+- DML: se utiliza para manipular los datos, como insertar, actualizar y eliminar.
+- DCL: permite controlar los permisos.
+- TCL: administra las transacciones en la base de datos; usa COMMIT para guardar y ROLLBACK para deshacer lo realizado.
 
-##  Tipos de lenguajes de BBDD
+## Diccionario de datos; conceptos, contenido, tipos y uso
 
-Tenemos 4 tipos de lenguaje en la base de datos que cada uno se utiliza para cosas distinta:
+Es el lugar donde se deposita la información referente a la base de datos. Además, el diccionario de datos ofrece información sobre la estructura lógica y física de la base de datos.
 
-- DDL: Este lenguaje lo utilizamos para crear estructura de datos 
-- DML: Este lenguaje lo utilizamos para manipular los datos como insertar, actualizar y hacer operaciones 
-- DCL: Con este lenguaje nos permite tener control de los permiso
-- TCL: Nos permite administrar las transacciones que se tiene en la base de datos y utiliza COMMIT para guardar y ROLLBLACK para deshacer lo realizado  
+Por otro lado, tenemos dos tipos de diccionario de datos:
 
-## Diccionario de datos; Conceptos, contenido, tipos y uso
-
-Es el lugar donde se va a depositar la información referente a la base de dato, ademas el diccionario de dato ofrece información sobre la estructura lógica y física de la base de datos 
-
-Por otro lado tenemos dos tipo de diccionario de datos que son: 
-- off-line su función es mantener el diccionario
-- on-line que funciona como un compilador 
-
+- off-line: su función es mantener el diccionario.
+- on-line: funciona como un compilador.
 
 # 1.5. ANSI/X3/SPARC. Estándares y niveles
 
-En su momento trato de crear un diseño abstracto para estandarizan los sistema de bases de datos y esta estructura se basa en tres tipos: 
+En su momento se intentó crear un diseño abstracto para estandarizar los sistemas de bases de datos y esta estructura se basa en tres niveles:
 
-- nivel externo o de visión: en este nivel: este es un nivel para el usuario ademas este nivel tiene el usuario solo puede ver lo que se le permite
-
-- nivel conceptual: en este nivel de define la estructura que se va utilizar en la base de datos y también la  interrelaciones existen entre los mismos datos
-
-- nivel interno o físico: En este nivel se organiza el almacenamiento de base de datos 
-
+- nivel externo o de visión: es el nivel para el usuario; aquí el usuario sólo puede ver lo que se le permite.
+    
+- nivel conceptual: en este nivel se define la estructura que se va a utilizar en la base de datos y las interrelaciones que existen entre los datos.
+    
+- nivel interno o físico: en este nivel se organiza el almacenamiento de la base de datos.
+    
 
 ## 1.6. Modelos de BBDD. Tipos: jerárquico, red, relacional y orientado a objetos
 
-Este punto ya lo tocamos antes en tipos de datos pero en este punto lo vamos profundizar un poco mas . 
+Este punto ya se tocó antes en tipos de datos, pero aquí lo profundizaremos un poco más.
 
-Los modelos de bases de datos organizan el almacenamiento de los datos pero también tiene la lógica de los mismo  los mas destacado son los siguientes: 
+Los modelos de bases de datos organizan el almacenamiento de los datos y también su lógica; los más destacados son los siguientes:
 
-Jerárquico: Este tiene forma de árbol invertido pero también utiliza  la herencia 
-![[Pasted image 20260116071743.png]]
+Jerárquico: tiene forma de árbol invertido y utiliza herencia. ![[Pasted image 20260116071743.png]]
 
-- En Red: Este modelo son nodos que se enlaza entre si pero aquí no hay herencia 
-![[Pasted image 20260116071939.png]]
+En red: este modelo son nodos que se enlazan entre sí; aquí no hay herencia. ![[Pasted image 20260116071939.png]]
 
-- Modelo Relacional: Este modelo es que organiza la información en entidades y duplas o filas para evitar la redundancia 
+Modelo relacional: organiza la información en entidades y duplas o filas para evitar la redundancia.
 
-- Modelo entidad-relación (ER): Este es el que todo conocemos y que hemos estado explicando 
+Modelo entidad-relación (ER): es el que todos conocemos y que hemos venido explicando.
 
-- Modelo entidad-relación extendido: Es el mismo pero con menos limitaciones 
+Modelo entidad-relación extendido: es el mismo, pero con menos limitaciones.
 
-- Modelo orientado a objetos: Este tipo de modelo ya utilizamos tanto la herencia como los objectos 
+Modelo orientado a objetos: en este modelo se utilizan tanto la herencia como los objetos.
 
-## Regla de integridad de los datos 
+## Regla de integridad de los datos
 
-Los SGBD tiene que garantizar la seguridad de los datos ya que de lo contrario la base de dato sufrirá perdida de datos, por ello hay dos reglas de integridad que hay que seguir  
+Los SGBD deben garantizar la seguridad de los datos; de lo contrario la base de datos sufrirá pérdida de información. Por ello hay dos reglas de integridad que se deben seguir:
 
-- Regla de integridad del modelo: Es que te asegures que el sistema de base de datos que elegiste funcione bien y non tenga problema de seguridad ni de integridad 
-
-- Regla de integridad del usuario: En este paso es el usuario que debe asegurarse en trabajar bien con SGBD para no tener problema de perdida de dato y en caso de tenerlo tener como recuperar dichos datos 
+- Regla de integridad del sistema: Asegura que el sistema de gestión de bases de datos elegido funcione correctamente y no presente problemas de seguridad ni de integridad.
+    
+- Regla de integridad del usuario: El usuario debe operar correctamente el SGBD para evitar pérdida de datos y, en caso de producirse, saber cómo recuperar la información.
+    
 
 ## Modelo distribuido: ventajas e inconvenientes, técnicas de fragmentación, distribución de datos y esquemas de asignación y replicación de datos
 
-
-resumen de este módulo, la base de datos distribuida es donde varias máquinas se unen por nodo para cumplir un solo objetivo, que tienen sus ventajas y desventajas, ventajas de que se resuelven más rápido, tienen más rendimiento, y desventajas que pueden tener vulnerabilidad. También hay un concepto que se llama fragmentación, que es básicamente cómo se divide la información que es horizontal, que se divide por filas, verticales donde se divide por atributos, y mixtas donde se combinan las dos.”
+Resumen del módulo: una base de datos distribuida es aquella en la que varias máquinas (nodos) se unen para cumplir un objetivo común. Tiene ventajas y desventajas: ventajas como mayor rapidez y rendimiento; desventajas como posibles vulnerabilidades. También existe el concepto de fragmentación, que es cómo se divide la información: fragmentación horizontal (por filas), vertical (por atributos) y mixta (combinación de ambas).
 
 ## 1.7. Bases de datos centralizadas y distribuidas
 
 Base de datos centralizada (BDC)
 
-La base de datos centralizada en resumen es una base de dato que esta pues de forma local ósea que no interacciona con otras bases de datos, esto trae ventajas y desventajas 
+Una base de datos centralizada es una base de datos localizada que no interactúa con otras bases de datos. Esto conlleva ventajas y desventajas.
 
 Ventajas:
--  la seguridad es máxima
-- No tiene problema de seguridad 
-- Redimiendo optimo ya que tiene pocos datos que procesar
-- Se puede poner restricciones
 
-Desventajas: 
-- La recuperación es complicada
-- No se puede compartir tareas
-- Si el sistema falla podemos perder todo la información
-- A diferencia del papel el ordenador es mas caro
+- Seguridad elevada.
+- Menos problemas de integridad.
+- Rendimiento óptimo al procesar menos datos.
+- Posibilidad de aplicar restricciones.
+
+Desventajas:
+
+- Recuperación más complicada.
+- No permite compartir tareas entre nodos.
+- Si el sistema falla se puede perder toda la información.
+- El computador es más costoso que el papel.
 
 Base de datos distribuida (BDD)
 
-En esta base de datos la podemos definir como la que se encuentra en una red unida por nodos y cada uno de estos nodos están relacionados entre si, además estos nodos son independiente entre si,  esto también tiene ventajas y desventajas 
+Una base de datos distribuida es aquella que se encuentra en una red formada por nodos interconectados; cada nodo está relacionado con los demás y, a la vez, es independiente. Esto presenta ventajas y desventajas.
 
 Ventajas:
 
-- Rápido acceso
-- Mejora la comunicación 
-- Es mejor la organización 
-- Como es en red la modificación es mas rápido y mejor ; insertar borrar entre otros 
-- Bajo coste a la hora de crear un a red pequeña 
+- Acceso rápido
+- Mejora la comunicación
+- Mejor organización
+- Al ser en red, las modificaciones (insertar, borrar, etc.) son más rápidas y eficientes
+- Bajo coste para crear una red pequeña
 
-Inconveniente:
+Inconvenientes:
 
-- diseño mas complejo 
+- Diseño más complejo
 - Aumenta el riesgo de seguridad
-- la recuperación mas complejo 
-
+- Recuperación más compleja
 
 ## Componentes: hardware y software
 
-A nivel de componente en la base de datos distribuida se utiliza mas hardware ya que recordemos que se tiene que utilizar mas ordenadores y en el tema software en la base de datos distribuida se necesita de un software que una la comunicación de los nodos 
+A nivel de componentes, en una base de datos distribuida se utiliza más hardware, ya que se requieren varios ordenadores; en cuanto al software, se necesita un sistema que coordine la comunicación entre los nodos.
 
+Distribución de los datos
 
-## Distribución de los datos
+Para distribuir los datos hay cuatro maneras:
 
+- Centralizada: similar al modelo cliente-servidor
+- Replicada: se duplica la información
+- Particionada: se almacena una porción de los datos en cada nodo
+- Híbrida: combina replicación y particionamiento
 
 
