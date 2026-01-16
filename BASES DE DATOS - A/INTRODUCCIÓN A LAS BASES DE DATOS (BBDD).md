@@ -219,5 +219,51 @@ Los SGBD tiene que garantizar la seguridad de los datos ya que de lo contrario l
 ## Modelo distribuido: ventajas e inconvenientes, técnicas de fragmentación, distribución de datos y esquemas de asignación y replicación de datos
 
 
-listo
-listo2
+resumen de este módulo, la base de datos distribuida es donde varias máquinas se unen por nodo para cumplir un solo objetivo, que tienen sus ventajas y desventajas, ventajas de que se resuelven más rápido, tienen más rendimiento, y desventajas que pueden tener vulnerabilidad. También hay un concepto que se llama fragmentación, que es básicamente cómo se divide la información que es horizontal, que se divide por filas, verticales donde se divide por atributos, y mixtas donde se combinan las dos.”
+
+## 1.7. Bases de datos centralizadas y distribuidas
+
+Base de datos centralizada (BDC)
+
+La base de datos centralizada en resumen es una base de dato que esta pues de forma local ósea que no interacciona con otras bases de datos, esto trae ventajas y desventajas 
+
+Ventajas:
+-  la seguridad es máxima
+- No tiene problema de seguridad 
+- Redimiendo optimo ya que tiene pocos datos que procesar
+- Se puede poner restricciones
+
+Desventajas: 
+- La recuperación es complicada
+- No se puede compartir tareas
+- Si el sistema falla podemos perder todo la información
+- A diferencia del papel el ordenador es mas caro
+
+Base de datos distribuida (BDD)
+
+En esta base de datos la podemos definir como la que se encuentra en una red unida por nodos y cada uno de estos nodos están relacionados entre si, además estos nodos son independiente entre si,  esto también tiene ventajas y desventajas 
+
+Ventajas:
+
+- Rápido acceso
+- Mejora la comunicación 
+- Es mejor la organización 
+- Como es en red la modificación es mas rápido y mejor ; insertar borrar entre otros 
+- Bajo coste a la hora de crear un a red pequeña 
+
+Inconveniente:
+
+- diseño mas complejo 
+- Aumenta el riesgo de seguridad
+- la recuperación mas complejo 
+
+
+## Componentes: hardware y software
+
+A nivel de componente en la base de datos distribuida se utiliza mas hardware ya que recordemos que se tiene que utilizar mas ordenadores y en el tema software en la base de datos distribuida se necesita de un software que una la comunicación de los nodos 
+
+
+## Distribución de los datos
+
+
+
