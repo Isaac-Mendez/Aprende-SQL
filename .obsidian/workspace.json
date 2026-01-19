@@ -1,0 +1,191 @@
+{
+  "main": {
+    "id": "602d743707937f69",
+    "type": "split",
+    "children": [
+      {
+        "id": "7766f19b3996346c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bf784acb01133732",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BASES DE DATOS - B/TUTORIAL DE INSTALACIÓN SGBD ORACLE.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TUTORIAL DE INSTALACIÓN SGBD ORACLE"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cd6223febd626ddc",
+    "type": "split",
+    "children": [
+      {
+        "id": "1ccefbd0410fae90",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f5d9619e09b04af9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "f3bf853854274292",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "cf75f9e0c50796be",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5f6d1c8dbedbb964",
+    "type": "split",
+    "children": [
+      {
+        "id": "8b5eb784ecc529c8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2ad6e7b3c49f4b3d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "BASES DE DATOS - B/TUTORIAL DE INSTALACIÓN SGBD ORACLE.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de TUTORIAL DE INSTALACIÓN SGBD ORACLE"
+            }
+          },
+          {
+            "id": "d382a7502a4383b3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "BASES DE DATOS - B/TUTORIAL DE INSTALACIÓN SGBD ORACLE.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de TUTORIAL DE INSTALACIÓN SGBD ORACLE"
+            }
+          },
+          {
+            "id": "2bb6ce5e9566b0f9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "2ac95d668d429953",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "cc110c69588ec484",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "BASES DE DATOS - B/TUTORIAL DE INSTALACIÓN SGBD ORACLE.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de TUTORIAL DE INSTALACIÓN SGBD ORACLE"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
+    }
+  },
+  "active": "bf784acb01133732",
+  "lastOpenFiles": [
+    "BASES DE DATOS - A/NORMALIZACIÓN.md",
+    "BASES DE DATOS - B/TUTORIAL DE INSTALACIÓN SGBD ORACLE.md"
+  ]
+}
