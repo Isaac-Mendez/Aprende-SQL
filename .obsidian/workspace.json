@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BASES DE DATOS - B/0.3 GESTIÓN DE USUARIOS.md",
+                "file": "BASES DE DATOS - B/0.4 PROGRAMACIÓN EN BASES DE DATOS (BBDD).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0.3 GESTIÓN DE USUARIOS"
+              "title": "0.4 PROGRAMACIÓN EN BASES DE DATOS (BBDD)"
             }
           }
         ],
@@ -200,8 +200,10 @@
   },
   "active": "0ee75395a09752e7",
   "lastOpenFiles": [
-    "BASES DE DATOS - B/0.2 CREACIÓN DE BASES DE DATOS.md",
+    "Pasted image 20260121135137.png",
     "BASES DE DATOS - B/0.3 GESTIÓN DE USUARIOS.md",
+    "BASES DE DATOS - B/0.4 PROGRAMACIÓN EN BASES DE DATOS (BBDD).md",
+    "BASES DE DATOS - B/0.2 CREACIÓN DE BASES DE DATOS.md",
     "BASES DE DATOS - B/0.1 TUTORIAL DE INSTALACIÓN SGBD ORACLE.md",
     "BASES DE DATOS - A/NORMALIZACIÓN.md",
     "BASES DE DATOS - B/TUTORIAL DE INSTALACIÓN SGBD ORACLE.md"
